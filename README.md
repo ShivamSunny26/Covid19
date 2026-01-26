@@ -61,4 +61,4 @@ To ensure high-fidelity results, a rigorous data pipeline was established:
 
 This analysis proves that **containment is a race against mathematics.** The data shows that the nations which succeeded in "flattening the curve" (reducing that ~12% growth rate) were the ones that prevented healthcare collapse.
 
-**Developed with 🐍 by Shivam Kumar Looking for more data insights?**
+**Developed with 🐍 by Shivam Kumar**
