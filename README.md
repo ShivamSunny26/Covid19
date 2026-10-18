@@ -36,6 +36,32 @@ Visualizing the evolving Case Fatality Rate (CFR%) over time.
 
 ---
 
+## 📂 Project Structure
+
+```
+Covid19/
+├── data/
+│   ├── raw/
+│   │   └── covid.csv               # Source dataset (196 countries, Dec 2019 – Mar 2020)
+│   └── processed/
+│       ├── country_summary.csv     # Per-country totals & fatality rates
+│       └── global_trend.csv        # Daily global aggregates, growth & fatality rates
+├── notebooks/
+│   └── covid.ipynb                 # Full analysis pipeline
+├── outputs/
+│   └── figures/
+│       ├── global_trend.png        # Log-scale cases vs deaths
+│       ├── global_growth_rate.png  # Daily growth rate (%)
+│       ├── global_fatality_rate.png# CFR over time (%)
+│       └── top_10_countries.png    # Top 10 countries by cases
+├── README.md
+└── LICENSE
+```
+
+Run the notebook from anywhere inside the repository — it resolves paths relative to the repo root automatically.
+
+---
+
 ## 🧹 Data Engineering & Methodology
 
 To ensure high-fidelity results, a rigorous data pipeline was established:
